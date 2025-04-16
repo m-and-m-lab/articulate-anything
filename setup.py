@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 INSTALL_REQUIRES = [
     'google-generativeai',
     'clip @ git+https://github.com/openai/CLIP.git',
-    'cotracker @ git+https://github.com/facebookresearch/co-tracker.git@5951295e0ac49068824f75a497ae6749379ec62b', ## cotracker2
+    'cotracker @ git+https://github.com/facebookresearch/co-tracker.git', ## cotracker2
     'ipykernel',
     'matplotlib',
     'markdown2',
